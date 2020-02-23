@@ -1,8 +1,38 @@
+* {
+	margin: 0;
+	padding: 5px;
+}
+a {
+	/* text-decoration: none; */
+	color: white;
+}
+#logo {
+	font-size: 2em;
+	font-weight: bold;
+	font-family: Arial;
+}
+#pageHeader {
+  height:70px;
+  background-color:	#4267b2;
+}
+
+#pageHeader > div , #pageHeader > nav{
+	display: inline-block;
+}
+
+#pageHeader > nav{
+	position: absolute;
+	right: 0;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: Arial;
+}
 body { 
   
   color:black;
   /* background-color:lightblue; */
-  background-image:url('https://blog.hostbaby.com/wp-content/uploads/2013/07/antiquepaper_1920x1234.jpg');
+  /* background-image:url('https://blog.hostbaby.com/wp-content/uploads/2013/07/antiquepaper_1920x1234.jpg'); */
+  background-image:url('background.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -15,18 +45,54 @@ h2 {
   color:black; 
   text-align:left; 
 }
-p {
-  
+li {
+	font-size: 1em;
+	font-family: Helvetica;
+	margin-left: 25px;
 }
-#div1 {
+
+main > header {
+	background-color: #CCCCCC;
+}
+
+#id_img {
+	margin: 12px auto;
+	width: 500px;
+	height: 700px;
+}
+
+#header_main {
   /* background-color:lightblue; */
   text-align:center;
   /* background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSRkyjnO4PRu2ZOF-bK0241gFlHgQLaVSyWvVx6VRC_DI5xd1IM'); */
   /* background-image:url('https://onlinepngtools.com/images/examples-onlinepngtools/desert-transparent.png'); */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
 }
-#div2 {
-  /* background-color:lightblue; */
+
+
+main {
+	margin: 50px auto;
+	width: 1000px;
+}
+
+main > footer {
+	text-align:right;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: Arial;
+	color: black;
+}
+
+body > footer {
+	background-color: #2D2D2A;
+	height: 150px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:center;
+	padding: 10px;
 }
