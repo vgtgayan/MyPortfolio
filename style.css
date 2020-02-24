@@ -96,3 +96,37 @@ body > footer {
 	text-align:center;
 	padding: 10px;
 }
+
+/* Social Media Icons related styling -------------------- */
+.sm_icons {
+	position: fixed;
+	/* top: 50%; */
+	bottom: 10px;
+	left: 10%;
+	transform: translate(-50%,-50%);
+	
+}
+.sm_icons a {
+	display: inline-flex;
+	width: 40px;
+	height: 40px;
+	background: #2c3e50;
+	color: white;
+	margin: 0 6px;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+	font-size: 24px;
+}
+.sm_icons a:hover {
+	background: #e67e22;
+}
+.sm_icons a i {
+	transition: 0.4s;
+}
+
+.sm_icons a:hover > i {
+	transform: scale(1.6) rotate(25deg);
+}
+/* End of Social Media Icons related styling -------------------- */
